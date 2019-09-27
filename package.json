@@ -1,0 +1,33 @@
+{
+  "name": "catanydoor",
+  "version": "1.0.0",
+  "description": "NodeJS static Web server",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
+  },
+  "pre-commit": [
+    "lint"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cat66123/catAnydoor.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cat66123/catAnydoor/issues"
+  },
+  "homepage": "https://github.com/cat66123/catAnydoor#readme",
+  "devDependencies": {
+    "eslint": "^6.4.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "pre-commit": "^1.2.2"
+  },
+  "dependencies": {}
+}
